@@ -1,0 +1,11 @@
+{
+    "name": "SimpleClicker",
+    "scripts": {
+        "start": "http-server -g -b -p 3000",
+        "expose": "ngrok http --domain=champion-spaniel-slowly.ngrok-free.app 3000"
+    },
+    "dependencies": {
+        "http-server": "^14.1.1",
+        "ngrok": "4"
+    }
+}
